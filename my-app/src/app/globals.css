@@ -21,8 +21,17 @@ body {
   padding: 12vh !important;
 }
 
+#nav {
+  position: fixed;
+}
+
 #logoNav {
   margin-top: -3vh;
+}
+
+#linkNav {
+  margin-left: 30px;
+  padding: 20px !important;
 }
 
 #Container {
@@ -69,7 +78,10 @@ body {
 }
 
 #paragrafoSobre {
-  margin-top: 4vh;
+  text-indent:3vh;
+  text-align: center;
+  width: 130vh;
+  margin-top: 5vh;
 }
 
 .barra {
@@ -78,4 +90,12 @@ body {
   width: 100vh;
   height: 0.5px;
   background-color: aliceblue;
+}
+
+#Experiencia {
+  display: flex;
+  width: 130vh;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
 }
