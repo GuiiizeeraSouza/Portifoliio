@@ -2,38 +2,80 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,900;1,900&family=Yellowtail&display=swap');
 
 *{
-  margin: 0px;
   padding: 0px;
   font-family: "Kode Mono", monospace;
 }
 
 body {
   color: azure;
+  height: 500vh;
   background-color: rgb(36, 36, 36);
+  background-image: url('../../public/2147625771.jpg'); 
 }
 
 #mainContainer {
-  margin: 30px;
-  height: 100%;
+  padding: 12vh !important;
+}
+
+#logoNav {
+  margin-top: -3vh;
 }
 
 #Container {
-  height: 70vh;
+  height: 75vh;
   width: 100%; 
 }
 
 #textInit {
-  margin-top: 20vh;
-  font-size: 6vh;
+  max-width: 1200px !important;
+  margin-top: -20vh;
+  margin-left: 03vh;
 }
+
+
 #lineOne {
-  font-size: 4vh;
+  font-size: 5vh;
 }
 
-#area2 {
-  background-color: red;
+#Sobre {
+  display: flex;
+  width: 130vh;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
 }
 
-  
+#textSobre {
+  display: flex;
+  font-size: 30px;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+#titleSobre {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  color: #FFFFFF;
+  font-size: 75px;
+  margin-top: 70px;
+}
+
+#paragrafoSobre {
+  margin-top: 4vh;
+}
+
+.barra {
+  box-shadow: 1px 0px 10px 1px aliceblue;
+  margin-top: 15vh;
+  width: 100vh;
+  height: 0.5px;
+  background-color: aliceblue;
+}
