@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,900;1,900&family=Yellowtail&display=swap');
 
-*{
+* {
   padding: 0px;
   font-family: "Kode Mono", monospace;
 }
@@ -14,11 +14,11 @@ body {
   color: azure;
   height: 500vh;
   background-color: rgb(36, 36, 36);
-  background-image: url('../../public/2147625771.jpg'); 
+  background-image: url('../../public/2147625771.jpg');
 }
 
 #mainContainer {
-  padding: 12vh !important;
+  padding: 15vh !important;
 }
 
 #nav {
@@ -36,7 +36,7 @@ body {
 
 #Container {
   height: 75vh;
-  width: 100%; 
+  width: 100%;
 }
 
 #textInit {
@@ -61,27 +61,28 @@ body {
 #textSobre {
   display: flex;
   font-size: 30px;
-  justify-content: space-evenly;
-  align-items: center;
   flex-wrap: nowrap;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: flex-start;
 }
 
 #titleSobre {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
+  line-height: 17vh;
   font-weight: 900;
   font-style: normal;
   color: #FFFFFF;
-  font-size: 75px;
-  margin-top: 70px;
+  font-size: 185px;
+  margin-top: 24vh;
 }
 
 #paragrafoSobre {
-  text-indent:3vh;
-  text-align: center;
-  width: 130vh;
-  margin-top: 5vh;
+  text-align: left;
+  width: 80vh;
+  font-size: 25px;
+  margin-top: 25vh;
+  margin-left: -140px;
 }
 
 .barra {
@@ -92,10 +93,108 @@ body {
   background-color: aliceblue;
 }
 
+.barra {
+  box-shadow: 1px 0px 10px 1px aliceblue;
+  margin-top: 12vh;
+  width: 130vh;
+  height: 0.5px;
+  background-color: aliceblue;
+}
+
+.barraContainer {
+  box-shadow: 1px 0px 10px 1px aliceblue;
+  margin-top: 2vh;
+  margin-left: 38vh;
+  height: 70vh;
+  width: 0.5px;
+  background-color: aliceblue;
+}
+
+.barraExperiencia {
+  box-shadow: 1px 0px 10px 1px aliceblue;
+  margin-top: 9vh;
+  margin-left: -25vh;
+  height: 70vh;
+  width: 1px;
+  background-color: aliceblue;
+}
+
 #Experiencia {
   display: flex;
-  width: 130vh;
+  width: 120vh;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
+}
+
+#textExperiencia {
+  display: flex;
+  font-size: 30px;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+#titleTempo {
+  width: 30px;
+  font-family: "Yellowtail";
+  font-optical-sizing: auto;
+  line-height: 11vh;
+  font-weight: 900;
+  font-style: normal;
+  color: #FFFFFF;
+  font-size: 125px;
+  margin-left: 4vh;
+}
+
+#linhaTempo {
+  max-width: 100%;
+  margin-left: 25vh;
+  margin-top: -10vh;
+}
+
+#containerTempo {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-start;
+  margin-top: 15vh;
+}
+
+#containerTitle {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  margin-top: 15vh;
+}
+
+#itemTempo {
+  position: absolute;
+  font-family: "Yellowtail";
+  color: #FFFFFF;
+  font-size: 22vh;
+  margin-left: -34vh;
+  margin-bottom: -6vh;
+}
+
+#titlesLinha {
+  display: flex;
+}
+
+.litleTitle {
+  font-family: "Yellowtail";
+  font-size: 23px;
+  margin-left: 29vh;
+}
+
+.litleText {
+  font-family: "Yellowtail";
+  font-size: 18px;
+  width: 24vh;
+  margin-top: -8vh;
+  margin-left: 20vh;
+}
+
+#textLinha {
+  display: flex;
 }
